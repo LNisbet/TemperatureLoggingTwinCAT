@@ -13,15 +13,18 @@ namespace TemperatureLogging
 
         static void ReadNumberOfSensors()
         {
+            int retries = 3;
             Console.WriteLine("Number of Sensors?");
             var input = Console.ReadLine();
-            if (int.TryParse(input, out NumberOfSensors))
+            try 
             {
+                int.TryParse(input, out NumberOfSensors);
                 return;
             }
-            else
+            catch
             {
-                Console.WriteLine($"{input} is not a number");
+                if (--retries == 0) throw;
+                else Console.WriteLine($"{input} is not a number");
             }
 
         }
