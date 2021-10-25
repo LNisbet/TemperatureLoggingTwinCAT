@@ -38,3 +38,10 @@ D:\Work\OneDrive - Science and Technology Facilities Council\TwinCAT Working Gro
 D:\Work\OneDrive - Science and Technology Facilities Council\TwinCAT Working Group\TemperatureLogging\obj\Debug\netcoreapp3.1\TemperatureLogging.dll
 D:\Work\OneDrive - Science and Technology Facilities Council\TwinCAT Working Group\TemperatureLogging\obj\Debug\netcoreapp3.1\TemperatureLogging.pdb
 D:\Work\OneDrive - Science and Technology Facilities Council\TwinCAT Working Group\TemperatureLogging\obj\Debug\netcoreapp3.1\TemperatureLogging.genruntimeconfig.cache
+C:\Users\hog72784\OneDrive - Science and Technology Facilities Council\TwinCAT Working Group\TemperatureLogging\obj\Debug\netcoreapp3.1\TemperatureLogging.csproj.AssemblyReference.cache
+C:\Users\hog72784\OneDrive - Science and Technology Facilities Council\TwinCAT Working Group\TemperatureLogging\obj\Debug\netcoreapp3.1\TemperatureLogging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hog72784\OneDrive - Science and Technology Facilities Council\TwinCAT Working Group\TemperatureLogging\obj\Debug\netcoreapp3.1\TemperatureLogging.AssemblyInfoInputs.cache
+C:\Users\hog72784\OneDrive - Science and Technology Facilities Council\TwinCAT Working Group\TemperatureLogging\obj\Debug\netcoreapp3.1\TemperatureLogging.AssemblyInfo.cs
+C:\Users\hog72784\OneDrive - Science and Technology Facilities Council\TwinCAT Working Group\TemperatureLogging\obj\Debug\netcoreapp3.1\TemperatureLogging.csproj.CoreCompileInputs.cache
+C:\Users\hog72784\OneDrive - Science and Technology Facilities Council\TwinCAT Working Group\TemperatureLogging\obj\Debug\netcoreapp3.1\TemperatureLogging.dll
+C:\Users\hog72784\OneDrive - Science and Technology Facilities Council\TwinCAT Working Group\TemperatureLogging\obj\Debug\netcoreapp3.1\TemperatureLogging.pdb

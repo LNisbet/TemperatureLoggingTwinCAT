@@ -1,14 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TemperatureLogging
 {
-    class Program
+    public class Program
     {
+        public PLC myPLC { get; set; }
+
+
         static int NumberOfSensors;
-        static void Main()
+        public void Main()
         {
             ReadNumberOfSensors();
-            WriteData(ReadSensors());
+            List<TempSensor> TempSensors= new List<TempSensor>(NumberOfSensors);
+
+            WriteData(TempSensors);
         }
 
         static void ReadNumberOfSensors()
@@ -29,21 +35,9 @@ namespace TemperatureLogging
 
         }
 
-        static string[] ReadSensors()
+        static void WriteData(List<TempSensor> Data)
         {
-            string[] SensorData = new string[NumberOfSensors];
-
-            for (int i = 0; i < SensorData.Length; i++)
-            {
-                Console.WriteLine("Value" +(i+1));
-                SensorData[i] = Console.ReadLine();
-            }
-            return SensorData;
-        }
-
-        static void WriteData(String[] Data)
-        {
-            for (int i = 0; i < Data.Length; i++)
+            for (int i = 0; i < Data.Count; i++)
             {
                 Console.WriteLine("Data" + (i+1) + " " + Data[i]);
             }
